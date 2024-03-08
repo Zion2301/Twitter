@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-tweet {
+    padding-left: 260px;
+    padding-top: 160px;
+    padding-right: 80px;
+}
+
+.icon > i {
+    font-size: 300px;
+}
+
+.happen {
+    font-size: 70px;
+    font-family: sans-serif;
+}
+
+.join {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.google {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 42%;
+}
+
+.google:hover {
+    background-color: rgb(213, 213, 213);
+    transition: 1s;
+}
+
+.or {
+    font-family: sans-serif;
+    color: rgb(128, 128, 128);
+}
+
+.create {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    /* font-size: 13px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(78, 78, 255);
+    font-weight: bold;
+    color: white;
+    /* width: 19%; */
+    text-align: center;
+    width: 50%;
+}
+
+span {
+    color: rgb(78, 78, 255);
+}
+
+.sign {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.two-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.account {
+    font-family: sans-serif;
+}
+
+.in {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    /* font-size: 13px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(78, 78, 255);
+    /* width: 19%; */
+    text-align: center;
+    border: 1px solid rgb(180, 180, 180);
+    width: 50%;
+}
+.in:hover {
+    background-color: rgba(78, 78, 255, 0.475);
+    transition: 1s;
+}
+
+.extra-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.sub-tweet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tiny {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    
+}
+
+.tiny-2 {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(187, 187, 187);
+    padding-right: 20px;
+    text-align: center;
+}
+
+.tiny-2:hover {
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.last {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+     .tiny-2 {
+        /* font-size: 10px; */
+        /* gap: 10px; */
+     }
+
+     .main-tweet {
+        padding-left: 100px;
+     }
+
+     .icon > i {
+        font-size: 250px;
+     }
+}
+
+@media screen and (max-width: 1000px) {
+    .icon > i {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    .sub-tweet {
+        flex-direction: column;
+        align-items: left ;
+    }
+
+    .happen {
+        font-size: 50px;
+    }
+
+    .icon {
+        margin-bottom: 80px;
+        text-align: left;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .two-links {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .extra-links {
+        align-items: center;
+    }
+
+    .tiny-2 {
+        padding-bottom: 20px;
+    }
+
+    .create {
+        font-size: 12px;
+    }
+
+    .google {
+        font-size: 12px;
+        padding: 12px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .happen {
+        font-size: 40px;
+    }
+
+    .join {
+        font-size: 30px;
+    }
+
+    .google {
+        font-size: 8px;
+    }
+
+    .create {
+        font-size: 8px;
+    }
+    .in {
+        font-size: 6px;
+    }
+
+    .account {
+        font-size: 15px;
+    }
+
+    .main-tweet {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .sign {
+        font-size: 10px;
+    }
+}
